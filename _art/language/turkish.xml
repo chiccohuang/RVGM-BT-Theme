@@ -1,20 +1,128 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
 	
 	<variables>
 		
 		<langue>tr</langue>
+		
+		<!-- GENERAL -->
 
-<sysLabel>Üretici firma
-Tip
+		<yes>Evet</yes>
+		<no>Hayır</no>
+
+	<!-- Swap Shadders Effect -->
+		<subset.shaddersEffetc>Gölgelendirici Efekti</subset.shaddersEffetc>
+
+	<!-- Swap buttons type for help -->
+		<subset.swapbuttons>Yardım tuşu eşlemesi</subset.swapbuttons>
+		<classicbuttons>Genel eşleme</classicbuttons>
+		<nintendobuttons>Nintendo eşlemesi</nintendobuttons>
+		<xboxbuttons>Microsoft eşlemesi</xboxbuttons>
+		<psxbuttons>Sony eşlemesi</psxbuttons>
+		<arcadebuttons>Arcade eşlemesi</arcadebuttons>
+
+	<!-- Swap Theme Color -->
+		<subset.swapColor>Renk şemaları</subset.swapColor>
+		<colblue>Mavi</colblue>
+		<coldarkBlue>Koyu mavi</coldarkBlue>
+		<colpurple>Mor</colpurple>
+		<colred>Kırmızı</colred>
+		<colorange>Turuncu</colorange>
+		<colyellow>Sarı</colyellow>
+		<colgreen>Yeşil</colgreen>
+
+	<!-- Swap Theme Opacity -->
+		<subset.swapOpacity>Tema arkaplanı</subset.swapOpacity>
+		<translucent>Yarı saydam</translucent>
+		<opaque>Saydam</opaque>
+
+	<!-- Swap Video Effect -->
+		<subset.swapVideoEffect>Video önizlemeleri efektleri</subset.swapVideoEffect>
+		<videoEffectDefault>Yok</videoEffectDefault>
+		<videoEffectBump>Çarpı</videoEffectBump>
+
+		<!-- SYSTEM SWAP -->
+		
+	<!-- Swap Ambiance-->
+		<subset.swapAmbiance>Müzen atmosferi</subset.swapAmbiance>
+		<library>Kütüphane, tarih</library> <!-- the place of knowledge of history -->
+		<artGallery>Sanat galerisi, resimlerle</artGallery> <!-- a beautiful exhibition of images -->
+		<mediaLibrary>Medya kütüphanesi, video deneyimi</mediaLibrary> <!-- with video that shows things -->
+		
+	<!-- Swap Menu -->
+		<subset.systemView>Sistem menü</subset.systemView>
+		<menuVertRight>Dikey sağ liste</menuVertRight>
+		<menuVertLeft>Dikey sol liste</menuVertLeft>
+		<menuHorizDown>Yatay alt liste</menuHorizDown>
+		<menuWheelRight>Dikey sağ direksiyon</menuWheelRight>
+		<menuWheelLeft>Dikey sol direksiyon</menuWheelLeft>
+		
+	<!--  Swap Video Preview Type -->
+		<subset.systemSwapVideo>Sistem genel bakış videosu</subset.systemSwapVideo>
+		<swapVideoRandom>Rasgele oynanış</swapVideoRandom>
+		<swapVideoCommercial>Ticari tv</swapVideoCommercial>
+		<swapVideoHide>Yok</swapVideoHide>
+		
+	<!-- Swap between Gray and Colored Logos -->
+		<subset.themeSwapColored>İşlenen sistem simgeleri</subset.themeSwapColored>
+		<colgray>Gri</colgray>
+		<colored>Renkli</colored>
+		
+	<!-- Choice font size by Display size -->
+		<subset.setDisplaySize>Ekran çözünürlüğü</subset.setDisplaySize>
+		<displayHd>HD 1080p / 720p</displayHd>
+		<display1680>1680x1050</display1680>
+		
+	<!-- Swap CRT Video Shader -->
+		<subset.swapVideoShader>Arkaplan video filtresi</subset.swapVideoShader>
+		<videoShaderNone>Yok</videoShaderNone>
+		<videoShaderCrt>CRT</videoShaderCrt>
+		
+	<!-- Info Labels -->
+<sysLabel>Üretici
+Tür
 Nesil
-Serbest bırakmak
+Yayın
 Medya
-Kontrolör
+Kontrolcü
 
 Toplam</sysLabel>
 
+		<!-- GAMES LIST -->
+
+		<videoFullscreenViewName>Tam Ekran Video</videoFullscreenViewName>
+		<gridDetailViewName>Tablo Kapak + Ayrıntı</gridDetailViewName>
+		<tilesTitleshotVideoViewName>Tablo Kısa Başlık</tilesTitleshotVideoViewName>
+		<tilesScreenshotVideoMarqueeViewName>Tablo Ekran Görüntüsü + Logo</tilesScreenshotVideoMarqueeViewName>
+		<marqueeDetailViewName>Çerçeve Listesi (Beta)</marqueeDetailViewName>
+		
+		<subset.gamelistInfoColor>Oyun listesi arkaplanı</subset.gamelistInfoColor>
+		<gamelistInfoLight>Açık</gamelistInfoLight>
+		<gamelistInfoDarth>Koyu</gamelistInfoDarth>
+
+		<subset.swapImages>Videodan önceki görüntü</subset.swapImages>
+		<titleshot>Kısa başlık</titleshot>
+		<screenshot>Ekran görüntüsü</screenshot>
+
+		<!-- AUTO COLLECTION TEXTS -->
+		
+		<autoArcadeCollection>Üreticiye göre sistem tarafından üretilen arcade oyunları otomatik koleksiyonu</autoArcadeCollection>
+		
 	</variables>
 	
 </theme>
+
+<!--
+BAŞLIKLAR RESİMLER çevrilecek:
+
+FAVORİLER
+2 oyuncu    = 2 OYUNCULU OYUNLAR
+4 oyuncu    = 4 OYUNCULU eğlenceli OYUNLAR
+SON OYNANAN
+TÜM OYUNLAR
+ASLA OYNANMADI
+
+KOLEKSİYONLAR
+
+-->
